@@ -34,6 +34,10 @@ input {
   justify-content: space-between;
 }
 
+.footer{
+  background-color: rgb(233, 230, 230);
+}
+
 .left-links,
 .right-links{
   display: flex;
@@ -49,5 +53,17 @@ input {
 
 a{
   text-decoration: none;
-  color: gray;
+  color: rgb(105, 100, 100);
+}
+
+.content{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+button{
+  padding: 8px 16px;
 }
